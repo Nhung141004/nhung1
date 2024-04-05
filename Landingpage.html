@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document1</title>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+  <link rel="stylesheet" href="Landingpage.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="slick-carousel">
+      <img class="background1" src="./img/Background.png" alt="">
+      <img class="background1" src="./img/background2.jpg" alt="">
+      <img class="background1" src="./img/background3.jpg" alt="">
+      <img class="background1" src="./img/background4.webp" alt="">
+      <img class="background1" src="//bizweb.dktcdn.net/100/465/979/themes/885178/assets/slider2_4.jpg?1711952347614"alt="">
+    </div>
+    <div class="product">
+      <div class="text">NEW ARRIVALS</div>
+      <div class="slick-product">
+        <div class="product_slick">
+          <img class="product_picture" src="./img/anh1.jpg" alt="">
+          <div class="product_text">Air Fit Velvet Ver 9</div>
+        </div>
+         <div class="product_slick">
+          <img class="product_picture" src="./img/anh2.jpg" alt="">
+          <div class="product_text">Air Fit Velvet Bad Rose</div>
+        </div>
+        <div class="product_slick">
+          <img class="product_picture" src="./img/anh3.png" alt="">
+          <div class="product_text">Air Fit Velvet Tin Ver 5</div>
+        </div>
+        <div class="product_slick">
+          <img class="product_picture" src="./img/anh4.webp" alt="">
+          <div class="product_text">Black Rouge Ver 2</div>
+        </div>
+        <div class="product_slick">
+          <img class="product_picture" src="./img/anh5.jpg" alt="">
+          <div class="product_text">Black Rouge Ver 7</div>
+        </div>
+        <div class="product_slick">
+          <img class="product_picture" src="./img/anh6.jpg" alt="">
+          <div class="product_text">Wearable Velvet Lipstick</div>
+        </div>
+        <div class="product_slick">
+          <img class="product_picture" src="./img/anh7.jpg" alt="">
+          <div class="product_text">lack Rouge Ver 5</div>
+        </div>
+        <div class="product_slick">
+          <img class="product_picture" src="./img/anh8.jpg" alt="">
+          <div class="product_text">Double Layer Over Velvet Ver 3</div>
+        </div>
+        <div class="product_slick">
+          <img class="product_picture" src="./img/anh9.webp" alt="">
+          <div class="product_text">Double Layer Over Velvet ver 2</div>
+        </div>
+        <div class="product_slick">
+          <img class="product_picture" src="./img/anh10.webp" alt="">
+          <div class="product_text">Glow Bokki Tint</div>
+        </div>
+        <div class="product_slick">
+          <img class="product_picture" src="./img/anh11.png" alt="">
+          <div class="product_text">Cream Matt Rouge</div>
+        </div>
+        <div class="product_slick">
+          <img class="product_picture" src="./img/anh12.webp" alt="">
+          <div class="product_text">Kẻ mắt nhũ Black Rouge Pearlvely</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+  </footer>
+  <script>
+    $(document).ready(function () {
+      $('.slick-carousel').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000,
+      });
+    });
+    $(document).ready(function () {
+      $('.slick-product').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+      });
+    });
+  </script>
+</body>
+
+</html>
